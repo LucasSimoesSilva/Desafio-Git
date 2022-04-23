@@ -1,4 +1,4 @@
-package Pessoal.CoisasGerais;
+package Pessoal;
 
 
 import java.util.Scanner;
@@ -13,7 +13,7 @@ public class MeuDecodificador {
         char c ='a';
         String soma ="";
 
-        System.out.println("Olá, esté é o SUPER decodificador");
+        System.out.println("Olá, esté é o meu decodificador");
         System.out.println("Por favor, insira o código na linha abaixo:");
         String texto1 = teclado.nextLine().toLowerCase().trim();
 
@@ -47,9 +47,6 @@ public class MeuDecodificador {
         System.out.println("-----------------------------------");
         System.out.println("--------Código decodificado--------");
         System.out.println("Código da palavra: "+soma);
-
-
-
 
 
 
