@@ -1,4 +1,4 @@
-package Pessoal.CoisasGerais;
+package Pessoal;
 
 import java.util.*;
 import java.util.regex.Matcher;
@@ -8,7 +8,7 @@ public class MeuCodificador {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Olá, este é o SUPER codificador.");
+        System.out.println("Olá, este é o meu codificador.");
         System.out.println("Por favor, digite uma palavra a ser codificada  na linha a baixo:");
         String palavra = teclado.nextLine().toLowerCase().trim();
 
@@ -55,22 +55,6 @@ public class MeuCodificador {
         System.out.println("----------------------------------");
         System.out.println("--------Palavra codificada--------");
         System.out.println("Código da palavra: "+fim.append(aleatorio));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
